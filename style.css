@@ -50,14 +50,43 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+/* .nav-bar .follow-us::after{
+    content: url(images/vector.png);
+} */
  .follow-us{
-    width: 162px;
+    /* width: 162px;
 height: 30px;
 border-radius: 8px;
 text-align: center;
-background: rgba(11, 2, 35, 0.10);
+background: rgba(11, 2, 35, 0.10); */
+border:none;
+text-align: center;
+background-color: #FFF;
+width: 200px;
+height: 30px;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color: #3C354F;
+margin-right: 100px;
 }
-.yotube-icon  {
+.follow-us::after{
+    content: url(images/Vector.jpg);
+    padding-left:8px ; 
+    vertical-align: middle;
+}
+.nav-bar button:hover{
+    border-radius: 5px;
+text-align: center;
+border: none;
+background: rgba(11, 2, 35, 0.10);
+width: 200px;
+height: 50px;
+;
+}
+
+/* .yotube-icon  {
     width: 70px;
 height: 50px;
 
@@ -67,7 +96,7 @@ height: 50px;
     width: 30px;
 height: 20px;
 
-} 
+}  */
 /* banner style */
 .list{
     list-style: none;
