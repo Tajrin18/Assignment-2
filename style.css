@@ -86,17 +86,6 @@ height: 50px;
 ;
 }
 
-/* .yotube-icon  {
-    width: 70px;
-height: 50px;
-
-
-}
-.tiktok-icon{
-    width: 30px;
-height: 20px;
-
-}  */
 /* banner style */
 .list{
     list-style: none;
@@ -226,10 +215,9 @@ main{
     grid-template-columns: repeat(4,1fr); */
     display: flex;
     gap: 20px;
-    margin-left: 200px;
-    
-    
+    margin-left: 200px;    
 }
+  
 .online-game-des{
     color: #534C64;
 font-family: Work Sans;
