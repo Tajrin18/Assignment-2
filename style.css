@@ -9,7 +9,11 @@ height: 40px;
 padding-right: 20px;
 }
 .pink-text{
-    color:magenta
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 /* nav style */
 .nav-title{
@@ -279,14 +283,178 @@ line-height: 30px;
      position: relative;
      bottom: 250px;
      right: 150px;
-   
+}
+.button-section{
+    width: 1920px;
+    height: 227px;
+    /* line-height: 227px; */
+    text-align: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-top: 100px;
 }
 .game-button button{
-border-radius: 48px;
-    border: magenta solid;
+    border-radius: 48px;
+border:none;
+text-align: center;
 background-color: #FFF;
-width: 136px;
-height: 45px;
+width: 300px;
+height: 70px;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 color: black;
 margin-right: 20px;
 }
+.game-button button:hover{
+border-radius: 48px;
+text-align: center;
+border:2px  magenta solid;
+background-color: #FFF;
+width: 300px;
+height: 70px;
+color: magenta;
+}
+.div2 button{
+    
+    margin-left: 10px;
+}
+ .game-button .btn1::before{
+    content: url(images/Rectangle\ 11.png);
+    padding-right:5px ; 
+    
+    vertical-align: middle;
+   }  
+ .game-button .btn2::before{
+    content: url(images/Rectangle\ 12.png);
+    /* padding-right:5px ;  */
+    
+    vertical-align: middle;
+   }  
+ .game-button .btn3::before{
+    content: url(images/Rectangle\ 13.png);
+    /* padding-right:5px ;  */
+   
+    vertical-align: middle;
+   }  
+ .game-button .btn4::before{
+    content: url(images/Rectangle\ 14.png);
+    /* padding-right:5px ;  */
+   
+    vertical-align: middle;
+   }  
+ .game-button .btn5::before{
+    content: url(images/Rectangle\ 15.png);
+    /* padding-right:5px ;  */
+    
+    vertical-align: middle;
+   }  
+ .game-button .btn6::before{
+    content: url(images/Rectangle\ 16.png);
+    padding-right:5px ; 
+  
+    vertical-align: middle;
+   }  
+ .game-button .btn7::before{
+    content: url(images/Rectangle\ 17.png);
+    /* padding-right:5px ;  */
+    vertical-align: middle;
+   }  
+ .game-button .btn8::before{
+    content: url(images/Rectangle\ 18.png);
+    /* padding-right:5px ;  */
+    vertical-align: middle;
+   }  
+ .game-button .btn9::before{
+    content: url(images/Rectangle\ 19.png);
+    /* padding-right:5px ;  */
+    vertical-align: middle;
+   } 
+   
+/* footer style */
+.footer{
+    width: 1920px;
+height: 636px;
+background: #0B0223;
+}
+
+.footer-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+}
+.footer>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    margin-right: 40px;
+}
+.footer ul>li{
+    list-style: none;
+    margin-right:60px;
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;;
+}
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 20px;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background: white ;
+    color: #3B5998;
+
+  }
+  
+  .fa-twitter {
+    background: #0B0223;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #0B0223;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: white;
+    color:  #bb0000;
+  }
+  .fa-instagram {
+    background:#0B0223;
+    color: white;
+  }
+  .icon-div{
+     margin-left: 700px;
+  }
+  .footer .term-section{
+        display: flex;
+        align-items: center;
+justify-content: center;
+       
+  }
+  .term-section li{
+    font-size: 16px;
+color: rgba(255, 255, 255, 0.60);
+margin-right: 40px;
+list-style: none;
+
+  }
+  .term-section{
+    margin-top: 50px;
+  }
+  .footer p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.60);
+    margin-right: 40px;
+    text-align: center;
+  }
